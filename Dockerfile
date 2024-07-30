@@ -17,7 +17,7 @@ FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "PassCrayze.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
-COPY ["dictionary.txt", "/app/dictionary.txt"]
+COPY ["/src/dictionary.txt", "/app/dictionary.txt"]
 
 FROM base AS final
 WORKDIR /app
