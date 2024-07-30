@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassCrayze", "PassCrayze.csproj", "{0F1A0BAA-696C-4867-9B87-BB5EDFCA48B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F37042BA-A710-4311-AB1A-B688EC480A77}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F1A0BAA-696C-4867-9B87-BB5EDFCA48B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1A0BAA-696C-4867-9B87-BB5EDFCA48B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1A0BAA-696C-4867-9B87-BB5EDFCA48B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1A0BAA-696C-4867-9B87-BB5EDFCA48B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+﻿services:
+  passcrayze:
+    image: passcrayze
+    build:
+      context: .
+      dockerfile: Dockerfile
